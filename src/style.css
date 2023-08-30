@@ -1,0 +1,136 @@
+body {
+    background: url(../images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    max-width: 375px;
+    box-sizing: border-box;
+}
+
+main {
+    display: grid;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-height: 651px;
+}
+
+@media (min-width: 476px) and (orientation: landscape) {
+    body {
+        background: url(../images/bg-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: hsl(257, 40%, 49%);
+        max-width: 1440px;
+        box-sizing: border-box;
+        max-height: 100vh;
+    }
+
+    .header img {
+        padding-top: 40px;
+        max-width: 100%;
+    }
+
+    .caixa-de-texto {
+        display: flex;
+        justify-items: self-start;
+    }
+
+    .caixa-de-texto .illustration{
+        flex: 0 0 50%;
+    }
+    .caixa-de-texto .texto{
+        /* flex: 0 0 50%; */
+        align-items: self-start;
+        padding-left: 30px;
+    }
+
+    .caixa-de-texto .texto .botao{
+        align-items: self-start;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .footer a:hover{
+        color:  hsl(300, 69%, 71%);
+        border-color: hsl(300, 69%, 71%);
+    }
+}
+
+
+.header {
+    display: flex;
+}
+
+.header img {
+    max-width: 40%;
+}
+
+.caixa-de-texto .illustration img {
+    max-width: 100%;
+    padding-top: 10px;
+}
+
+.caixa-de-texto .texto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-top: 14px;
+}
+
+.caixa-de-texto .texto .font-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.caixa-de-texto .texto .font-body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 13px;
+    padding-top: 15px;
+}
+
+.caixa-de-texto .texto .botao {
+    color: hsl(300, 69%, 71%);
+    background-color: #fff;
+    padding: 15px 50px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-top: 20px;
+    align-self: center;
+    justify-content: flex-end;
+}
+
+.caixa-de-texto .texto .botao:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+.footer .redes-sociais {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: center;
+}
+
+.footer a {
+    font-size: 20px;
+    padding: 8px;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 8px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
