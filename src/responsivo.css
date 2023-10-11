@@ -1,0 +1,62 @@
+@media (min-width: 1320px) and (orientation: landscape) {
+    body {
+        background: url(../images/bg-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: hsl(257, 40%, 49%);
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    main{
+        max-height: 100vh;
+        align-items: center;
+        max-width: 1440px;
+    }
+    .header img {
+        padding-top: 40px;
+        max-width: 100%;
+    }
+
+    .caixa-de-texto {
+        display: flex;
+        justify-items: self-start;
+        position: relative;
+    }
+
+    .texto{
+        margin-top: 80px;
+    }
+    .caixa-de-texto .illustration{
+        flex: 0 0 50%;
+    }
+    .caixa-de-texto .texto{
+        align-items: self-start;
+        padding-left: 30px;
+    }
+
+    .caixa-de-texto .texto .botao{
+        align-items: self-start;
+        position: absolute;
+    }
+
+    .footer ul {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .footer nav ul li a:hover{
+        color:  hsl(300, 69%, 71%);
+        border-color: hsl(300, 69%, 71%);
+    }
+}
+
+@media (max-width: 1320px) {
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        padding-top: 30px;
+        justify-content: center;
+    }}
