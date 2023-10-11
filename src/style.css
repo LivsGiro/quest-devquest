@@ -3,7 +3,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: hsl(257, 40%, 49%);
-    /* max-width: 375px; */
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
