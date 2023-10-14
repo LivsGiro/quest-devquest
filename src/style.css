@@ -17,7 +17,7 @@ main {
     flex-direction: column;
     padding-left: 30px;
     padding-right: 30px;
-    max-height: 651px;
+    /* max-height: 651px; */
     height: 100%;
 }
 
@@ -40,13 +40,13 @@ main {
     margin-bottom: 40px;
 }
 
-@media (max-width: 1320px){
+@media (max-width: 1023px){
     .caixa-de-texto .texto {
         display: flex;
         flex-direction: column;
         text-align: center;
         justify-content: center;
-        /* padding-top: 20px; */
+        padding-top: 20px;
     }
 }
 
@@ -62,7 +62,7 @@ main {
 .caixa-de-texto .texto .font-body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    color: #fff;
+    color: rgb(238, 238, 238);
     font-size: 2rem;
     padding-top: 15px;
 }
@@ -108,8 +108,7 @@ main {
 nav ul {
     display: flex;
     flex-direction: row;
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding-top: 30px;
     justify-content: center;
 }
 

@@ -10,7 +10,7 @@
     }
 
     main{
-        max-height: 100vh;
+        height: 100vh;
         max-width: 1440px;
         padding: 10px 60px 10px 60px;
        }
@@ -41,14 +41,17 @@
 
     .caixa-de-texto .texto{
         padding-left: 30px;
+        align-self: flex-start;
+        padding-top: 80px;
     }
 
-    .caixa-de-texto .texto font-heading{
-        font-size: 5rem;
+    .caixa-de-texto .texto .font-heading{
+        font-size: 4rem;
     }
 
-    .caixa-de-texto .texto font-body{
-        font-size: 1.5rem;
+    .caixa-de-texto .texto .font-body{
+        font-size: 2rem;
+        color: rgb(238, 238, 238);
     }
     .caixa-de-texto .texto .botao{
         align-items: self-start;
@@ -67,3 +70,4 @@
         border-color: hsl(300, 69%, 71%);
     }
 }
+
