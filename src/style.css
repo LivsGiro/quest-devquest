@@ -1,3 +1,4 @@
+
 body {
     background: url(../images/bg-mobile.svg);
     background-repeat: no-repeat;
@@ -6,28 +7,37 @@ body {
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 main {
-    display: grid;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
     padding-left: 30px;
     padding-right: 30px;
     max-height: 651px;
-    height: 100vh;
+    height: 100%;
 }
 
 .header {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header img {
-    max-width: 40%;
-    margin-top: 40px;
+    /* max-width: auto; */
+    width: 40%;
+    align-self: self-start;
+    margin-bottom: 40px;
+    margin-top: 20px;
 }
 
 .caixa-de-texto .illustration img {
     max-width: 100%;
-    padding-top: 30px;
+    margin-bottom: 40px;
 }
 
 @media (max-width: 1320px){
@@ -36,7 +46,7 @@ main {
         flex-direction: column;
         text-align: center;
         justify-content: center;
-        padding-top: 20px;
+        /* padding-top: 20px; */
     }
 }
 
@@ -45,7 +55,7 @@ main {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     color: #fff;
-    font-size: 4rem;
+    font-size: 2.8rem;
     letter-spacing: 1px;
 }
 
@@ -58,15 +68,15 @@ main {
 }
 
 .caixa-de-texto .texto .botao {
-    color: hsl(300, 69%, 71%);
+    color: hsl(257, 40%, 49%);
     background-color: #fff;
-    padding: 15px 80px;
+    padding: 15px 100px;
     border-radius: 30px;
     text-decoration: none;
-    margin-top: 20px;
+    margin-top: 25px;
     align-self: center;
     justify-content: flex-end;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .caixa-de-texto .texto .botao:hover {
@@ -76,12 +86,12 @@ main {
 }
 
 .footer a {
-    font-size: 20px;
+    font-size: 17px;
     padding: 8px;
     color: #fff;
     border: 2px solid #fff;
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     margin: 8px;
     align-items: center;
@@ -94,3 +104,21 @@ main {
     border-color: hsl(300, 69%, 71%);
     box-shadow: 2px 2px 5px #888888;
 }
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
+@media (max-width: 414px) and (orientation: portrait) {
+    .caixa-de-texto .texto .font-heading {
+        font-size: 2rem;
+    }
+
+    .caixa-de-texto .texto .font-body {
+        font-size: 1.5rem;
+    }
+    }
