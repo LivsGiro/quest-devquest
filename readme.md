@@ -50,14 +50,20 @@ Foram utilizadas as propriedades do flex e do border-box juntamente com @mediaqu
 
 Exemplo de como ficou a página em telas desktop:
 
-![Desktop]()
+![Desktop](large-desktop.png)
 
 Exemplo de como ficou a página em telas mobile:
 
-Celular
+![Mobile](mobile.png)
+
+Exemplo de como ficou a página em telas medianas:
+
+![Largas](medium.png)
 
 Exemplo do efeito de sombreamento com o passar do mouse:
 
-Sombreamento
+![Hover](hover1.png)
+![Hover](hover2.png)
 
-Obrigada por acompanhar o início do meu trabalho. Att, Lívia.
+Obrigada por acompanhar o início do meu trabalho. 
+Att, Lívia.
