@@ -50,7 +50,7 @@ Foram utilizadas as propriedades do flex e do border-box juntamente com @mediaqu
 
 Exemplo de como ficou a página em telas desktop:
 
-![Desktop](large-desktop.png)
+![Desktop](./capturas-resultados/large-desktop.png)
 
 Exemplo de como ficou a página em telas mobile:
 
